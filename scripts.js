@@ -51,3 +51,39 @@ function newTask() {
         }
     }
 }
+
+function blue() {
+    document.body.style.backgroundColor = "#0FAEF7";
+    document.getElementById("card").style.backgroundColor = "#0f64F7";
+    document.getElementById("navbar").style.backgroundColor = "#0f64F7";
+}
+
+function red() {
+    document.body.style.backgroundColor = "#E72A40";
+    document.getElementById("card").style.backgroundColor = "#C52336";
+    document.getElementById("navbar").style.backgroundColor = "#C52336";
+}
+
+function yellow() {
+    document.body.style.backgroundColor = "#F0E770";
+    document.getElementById("card").style.backgroundColor = "#F0D871";
+    document.getElementById("navbar").style.backgroundColor = "#F0D871";
+}
+
+function green() {
+    document.body.style.backgroundColor = "#25E766";
+    document.getElementById("card").style.backgroundColor = "#20C557";
+    document.getElementById("navbar").style.backgroundColor = "#20C557";
+}
+
+function purple() {
+    document.body.style.backgroundColor = "#C04CE7";
+    document.getElementById("card").style.backgroundColor = "#A441C5";
+    document.getElementById("navbar").style.backgroundColor = "#A441C5";
+}
+
+function orange() {
+    document.body.style.backgroundColor = "#E76423";
+    document.getElementById("card").style.backgroundColor = "#C5551E";
+    document.getElementById("navbar").style.backgroundColor = "#C5551E";
+}

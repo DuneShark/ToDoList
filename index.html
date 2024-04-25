@@ -18,7 +18,17 @@
         <h1>To Do List</h1>
     </header>
 
-    <div class="card">
+    <div id="navbar">
+        <span>Choose a Theme!</span>
+        <span onclick="blue()" class="color">Blue</span>
+        <span onclick="red()" class=color>Red</span>
+        <span onclick="yellow()" class="color">Yellow</span>
+        <span onclick="green()" class="color">Green</span>
+        <span onclick="orange()" class="color">Orange</span>
+        <span onclick="purple()" class="color">Purple</span>
+    </div>
+
+    <div id="card">
         <div class="cardheader">
             <input type="text" id="box" placeholder="New Task...">
             <span onclick="newTask()" class="addBtn">Add</span>

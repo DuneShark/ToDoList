@@ -1,17 +1,40 @@
 body {
     background-color: #0FAEF7;
-}
-
-header {
-    background-color: #0FAEF7;
-    border-bottom: solid;
-    border-color: white;
+    margin: 0;
 }
 
 h1 {
     text-align: center;
     color: white;
     font-family: "Helvetica", sans-serif;
+}
+
+#navbar {
+    overflow: hidden;
+    background-color: #0f64F7;
+    border-bottom: solid 3px white;
+    border-top: solid 3px white;
+    color: white;
+}
+
+#navbar span {
+    float: left;
+    text-align: center;
+    padding: 10px;
+    width: 10%;
+    font-family: "Helvetica", sans-serif;
+    font-weight: bold;
+}
+
+
+
+.color {
+    cursor: pointer;
+}
+
+.color:hover {
+    border-left: solid 1px white;
+    border-right: solid 1px white;
 }
 
 #box {
@@ -30,6 +53,7 @@ h1 {
     color: black;
     cursor: pointer;
     border-radius: 5px;
+    font-weight: bold;
 }
 
 ul {
@@ -48,22 +72,23 @@ li {
     padding-bottom: 10px;
     padding-left: 20px;
     margin-bottom: 10px;
+    font-size: 20px;
 }
 
 .close {
     position: absolute;
     right: 0;
     top: 0;
-    padding: 9px;
+    padding: 8px;
 }
 
 .close:hover {
-    background-color: forestgreen;
+    background-color: #34B233;
     color: white;
     border-radius: 5px;
 }
 
-.card {
+#card {
     transition: 0.3s;
     color: white;
     font-family: "Helvetica", sans-serif;
